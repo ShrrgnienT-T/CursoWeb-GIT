@@ -1,55 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags Div-Span</title>
-</head>
-<style type="text/css">
-    #topo{
-        background: rgb(0, 255, 251);
-    }
-    #Conteudo{
-        background: red;
-    }
-    .produto{
-        background:gray;
-        margin: 10px;
-    }
-    #rodape{
-        background: green;
-    }
-    #ass{
-        background: pink;
-    }
-    .azul{
-        color:blue;
-    }
+<html>
+	<head>
+		<title>Div e Span</title>
+		<meta charset="utf-8">
 
+		<style type="text/css">
+			
+			#topo {
+				background: blue;
+			}
+			
+			#conteudo {
+				background: red;
+			}
 
-</style>
-<body>
-    <div id="topo"> 
-        <img src="imagens/amazon.png" width="200">
-        <ul>
-            <li>Home</li>
-            <li>Produtos</li>
-            <li>Contato</li>
-        </ul>
-    </div>
-   
-    <div id="Conteudo">
-        <div class="produto">Produto 1</div>
-        <div class="produto">Produto 2</div>
-        <div class="produto">Produto 3</div>
-    </div>
+			#rodape {
+				background: green;
+			}
 
-    <div id="rodape">
-        Todos os <spam class="azul">Direitos</spam> Reservados
-    </div>
-    <span id="ass">
-        Jamilton
-    </span>
+			.produto {
+				background: gray;
+				margin: 10px;
+			}
 
-</body>
+			.azul{
+				color: blue;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="topo">
+			
+			<img src="imagens/amazon.png" width="200">
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contato</li>
+			</ul>
+
+		</div>
+
+		<div id="conteudo">
+			
+			<div class="produto">
+				Produto 1
+			</div>
+
+			<div class="produto">
+				Produto 2
+			</div>
+
+			<div class="produto">
+				Produto 3
+			</div>
+
+		</div>
+
+		<div id="rodape">
+			
+			Todos os <span class="azul"> direitos</span> reservados
+
+		</div>
+
+	</body>
 </html>
